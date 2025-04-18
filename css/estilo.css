@@ -1,0 +1,167 @@
+@font-face {
+    font-family: '1Roboto';
+    src:url('../fonts/1Roboto/roboto-variablefont_wdthwght-webfont.woff2') format('woff2'),
+        url('../fonts/1Roboto/roboto-variablefont_wdthwght-webfont.woff') format('woff'),
+        url('../fonts/1Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '1Roboto-italic';
+    src:url('../fonts/1Roboto/roboto-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+        url('../fonts/1Roboto/roboto-italic-variablefont_wdthwght-webfont.woff') format('woff'),
+        url('../fonts/1Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: '2Italiana';
+    src:url('../fonts/2Italiana/italiana-regular-webfont.woff2') format('woff2'),
+        url('../fonts/2Italiana/italiana-regular-webfont.woff') format('woff'),
+        url('../fonts/2Italiana/Italiana-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '3Belleza';
+    src:url('../fonts/3Belleza/belleza-regular-webfont.woff2') format('woff2'),
+        url('../fonts/3Belleza/belleza-regular-webfont.woff') format('woff'),
+        url('../fonts/3Belleza/Belleza-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '4Federo';
+    src:url('../fonts/4Federo/federo-regular-webfont.woff2') format('woff2'),
+        url('../fonts/4Federo/federo-regular-webfont.woff') format('woff'),
+        url('../fonts/4Federo/Federo-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '5Viaoda Libre';
+    src:url('../fonts/5Viaoda_Libre/viaodalibre-regular-webfont.woff2') format('woff2'),
+        url('../fonts/5Viaoda_Libre/viaodalibre-regular-webfont.woff') format('woff'),
+        url('../fonts/5Viaoda_Libre/ViaodaLibre-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    width: 100%;
+}
+body{
+    padding: 1.5rem 2rem;
+    margin: 0
+}
+header{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+ul#menu{
+    text-transform: uppercase;
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    padding: 0 2rem;
+    letter-spacing: 0.3rem;
+}
+li a{
+    text-decoration-line: none;
+    color: #425564;
+}
+li a:visited{
+    color: #425564;
+}
+#logo{
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 0 150px;
+}
+#blondeModel{
+    width: 100%;
+}
+#escolhaCerta{
+    text-align: center;
+    margin-top: 2rem;
+}
+#titulo{
+    font-family: '5Viaoda Libre', Viaoda Libre, serif;
+    font-size: 3rem;
+
+}
+#textoEscolha{
+    width: 80%;
+    font-family: '1Roboto', Roboto, Serif;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    margin: 0 auto;
+}
+#tresImagens{
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+    margin-top: 6rem; 
+}
+#romasa, #fima, #kira{
+    text-align: center;
+}
+.negrito{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#romasa p, #fima p, #kira p{
+    font-size: 1.2rem;
+}
+#detalhe{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-color: #003d52;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 5rem;
+    position: relative;
+    align-items: end;
+}
+#detalhe div{
+    position: absolute;
+    display: block;
+    top: 7rem;
+    left: 7rem;
+}
+#detalhe h2{
+    font-family: '5Viaoda Libre', Viaoda Libre, serif ;
+    /*top: 7rem;*/
+    width: 80%;
+    font-size: 3rem;
+}
+#detalhe p{
+    width: 50%;
+    /*top: 12rem;*/
+    font-size: 1.2rem;
+}
+#detalhe h2, #detalhe p{
+    /*left: 7rem;*/
+    color: white;
+}
+footer{
+    margin-top: -4px;
+    background-color: #162028;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+}
+footer p{
+    line-height: 1.8rem;
+    letter-spacing: .25rem;
+    color: #6f8597;
+}
+h2{
+    text-transform: uppercase;
+}
