@@ -51,7 +51,7 @@ html{
     width: 100%;
 }
 body{
-    padding: 1.5rem 2rem;
+    padding: 0;
     margin: 0
 }
 header{
@@ -97,7 +97,7 @@ li a:visited{
 
 }
 #textoEscolha{
-    width: 80%;
+    width: 76%;
     font-family: '1Roboto', Roboto, Serif;
     line-height: 2.5rem;
     font-size: 1.3rem;
@@ -122,29 +122,28 @@ li a:visited{
 #detalhe{
     background-image: url(../imagens/bg_detalhe.png);
     background-color: #003d52;
-    background-position: right;
+    background-position: right bottom;
     background-repeat: no-repeat;
     height: 100vh;
-    margin-top: 5rem;
-    position: relative;
-    align-items: end;
-}
-#detalhe div{
-    position: absolute;
-    display: block;
-    top: 7rem;
-    left: 7rem;
+    margin-top: 4rem;
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 #detalhe h2{
-    font-family: '5Viaoda Libre', Viaoda Libre, serif ;
-    /*top: 7rem;*/
-    width: 80%;
+    font-family: '5Viaoda Libre', Viaoda Libre, serif;
+    font-size: 4rem;
+    margin-top: 5rem;
+    width: 75%;
     font-size: 3rem;
 }
 #detalhe p{
     width: 50%;
     /*top: 12rem;*/
     font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
 }
 #detalhe h2, #detalhe p{
     /*left: 7rem;*/
